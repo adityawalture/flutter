@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:catalog_2/pages/home_page.dart';
 import 'package:catalog_2/pages/login_page.dart';
 import 'package:catalog_2/utils/routes.dart';
@@ -13,9 +15,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.system,
+      themeMode: ThemeMode.light,
       theme: ThemeData(
         fontFamily: 'DancingScript',
+        appBarTheme: AppBarTheme(
+          color: Colors.blue,
+          iconTheme: IconThemeData(color: Colors.black),
+        ),
       ),
       darkTheme: ThemeData(brightness: Brightness.dark),
       debugShowCheckedModeBanner: false,

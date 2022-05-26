@@ -17,7 +17,10 @@ class MyDrawer extends StatelessWidget {
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
-                accountName: Text("Aditya"),
+                accountName: Text(
+                  "Aditya",
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
                 accountEmail: Text("aditya1234@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: AssetImage('assets/images/loki.jpg'),
