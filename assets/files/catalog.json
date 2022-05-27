@@ -1,0 +1,162 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 699,
+            "color": "#33505a",
+            "imgURL":
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc"
+        },
+        {
+            "id": 2,
+            "name": "Samsung S21",
+            "desc": "Samsung Flagship Device",
+            "price": 600,
+            "color": "#33505a",
+            "imgURL":
+            "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6441/6441105_sd.jpg"        },
+        {
+            "id": 3,
+            "name": "iPhone 13",
+            "desc": "Apple iPhone 13th generation",
+            "price": 759,
+            "color": "#33505a",
+            "imgURL":
+                "https://i1.wp.com/maplestore.in/wp-content/uploads/2021/09/r1433_Midnight_PDP_Image_Position-1A_Avail__en-IN.jpg?fit=2048%2C2048&ssl=1"
+        },
+        {
+            "id": 4,
+            "name": "iPhone 13 Pro",
+            "desc": "Apple iPhone 13th generation",
+            "price": 800,
+            "color": "#33505a",
+            "imgURL":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1644969385433"
+        },
+        {
+            "id": 5,
+            "name": "iPhone Se",
+            "desc": "Apple iPhone SE 2020",
+            "price": 399,
+            "color": "#33505a",
+            "imgURL":"https://telecomtalk.info/wp-content/uploads/2020/04/iPhone-se-2020-difference-explained.jpg"
+        },
+        {
+            "id": 6,
+            "name": "iPhone Se",
+            "desc": "Apple iPhone SE 2022",
+            "price": 499,
+            "color": "#33505a",
+            "imgURL":
+                "https://www.smartech.com.cy/wp-content/uploads/2021/03/Apple-IPhone-SE-2020-Black3.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Samsung Tab S7",
+            "desc": "Samsung's Tablet(WiFi)",
+            "price": 811,
+            "color": "#33505a",
+            "imgURL":"https://www.reliancedigital.in/medias/SAMSUNG-SM-T735NZKEINU-Tablet-set6966-21?context=bWFzdGVyfGltYWdlc3wzODQyOXxpbWFnZS9qcGVnfGltYWdlcy9oYzgvaDNmLzk1NzMzNDI5Njk4ODYuanBnfDcwZWYzNzRmNWQyZTU0ZjljZDU5NjliZDAwNjI1NGQ1ZTZkMTMwNTJiOWMxYWVhNWQ1ZWJlZmNiYTFjYjllN2Y"
+        },
+        {
+            "id": 8,
+            "name": "Samsung Tab S7 FE",
+            "desc": "Samsung's Tablet Fan Edition",
+            "price": 502,
+            "color": "#33505a",
+            "imgURL":
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISJ6msIu4AU9_M9ZnJVQVFmfuhfyJjEtbUm3ZK11_8IV9TV25-1uM5wHjiFNwKy99w0mR5Hk&usqp=CAc"
+        },
+        {
+            "id": 9,
+            "name": "Samsung Tab S8",
+            "desc": "Samsung Tablet 8th gen",
+            "price": 1030,
+            "color": "#33505a",
+            "imgURL":
+                "https://fdn.gsmarena.com/imgroot/news/22/02/samsung-galaxy-tab-s8-promo/-1200x900m/gsmarena_005.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Samsung A32",
+            "desc": "A series samrtphones",
+            "price": 309,
+            "color": "#33505a",
+            "imgURL":
+                "https://images.samsung.com/is/image/samsung/p6pim/za/feature/others/za-feature-galaxy-a32-a325-478351872?$FB_TYPE_K_MO_JPG$"
+        },
+        {
+            "id": 11,
+            "name": "Samsung A52",
+            "desc": "A Series smartphones",
+            "price": 670,
+            "color": "#33505a",
+            "imgURL":
+                "https://m.media-amazon.com/images/I/41vc5JtQeQS._AC_SY1000_.jpg"
+        },
+        {
+            "id": 12,
+            "name": "iPhone 8",
+            "desc": "Apple iPhone 8th generation",
+            "price": 360,
+            "color": "#33505a",
+            "imgURL":
+                "https://assets.swappie.com/cdn-cgi/image/width=600,height=600,fit=contain,format=auto/swappie-iphone-8-silver-back.png"
+        },
+        {
+            "id": 13,
+            "name": "iPhone 8 Plus",
+            "desc": "Apple iPhone 8th generation",
+            "price": 386,
+            "color": "#33505a",
+            "imgURL":"https://www.refurbished.store/cache/images/iphone-8plus-zwart-multi_600x600_BGresize_16777215-tj.png"
+                
+        },
+        {
+            "id": 14,
+            "name": "iPhone 13 Mini",
+            "desc": "Apple iPhone 13th generation",
+            "price": 824,
+            "color": "#33505a",
+            "imgURL":
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-family-hero?wid=940&hei=1112&fmt=png-alpha&.v=1645036276543"
+        },
+        {
+            "id": 15,
+            "name": "iPhone 13 Pro Max",
+            "desc": "Apple iPhone 13th generation",
+            "price": 1662,
+            "color": "#33505a",
+            "imgURL":
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-13-pro-max-silver-select?wid=470&hei=556&fmt=jpeg&qlt=95&.v=1645552346280"
+        },
+        {
+            "id": 16,
+            "name": "iPhone X",
+            "desc": "Apple iPhone 10th generation",
+            "price": 412,
+            "color": "#33505a",
+            "imgURL":
+                "https://www.apple.com/newsroom/images/product/iphone/standard/iphonex_front_back_glass_big.jpg.large.jpg"
+        },
+        {
+            "id": 17,
+            "name": "iPad mimi",
+            "desc": "iPad 128GB 4th gen",
+            "price": 592,
+            "color": "#33505a",
+            "imgURL":
+                "https://media.wired.com/photos/6140ec4e1cd797e0bfeb7935/191:100/w_2580,c_limit/Apple_iPad-mini_colors_09142021.jpg"
+        },
+        {
+            "id": 18,
+            "name": "iPad Air",
+            "desc": "Apple iPad 128GB",
+            "price": 695,
+            "color": "#33505a",
+            "imgURL":
+                "https://www.apple.com/newsroom/images/product/ipad/standard/apple_new-ipad-air_new-design_09152020.jpg.news_app_ed.jpg"
+        }
+    ]
+}
