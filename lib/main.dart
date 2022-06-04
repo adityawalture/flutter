@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'DancingScript',
         appBarTheme: AppBarTheme(
-          color: Colors.blue,
+          color: Color.fromARGB(255, 237, 230, 230),
           iconTheme: IconThemeData(color: Colors.black),
         ),
       ),
