@@ -11,23 +11,26 @@ class info_page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      backgroundColor: Color.fromARGB(255, 237, 230, 230),
-      bottomNavigationBar: ButtonBar(
-        alignment: MainAxisAlignment.spaceBetween,
-        buttonPadding: EdgeInsets.zero,
-        children: [
-          "\$${catalog.price}".text.bold.red600.xl2.make(),
-          ElevatedButton(
-            onPressed: () {},
-            style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(Colors.black26),
-                shape: MaterialStateProperty.all(
-                  StadiumBorder(),
-                )),
-            child: "Buy".text.xl.make(),
-          ).wh(100, 45)
-        ],
-      ).p32(),
+      backgroundColor: Color.fromRGBO(237, 230, 230, 1),
+      bottomNavigationBar: Container(
+        color: Colors.white,
+        child: ButtonBar(
+          alignment: MainAxisAlignment.spaceBetween,
+          buttonPadding: EdgeInsets.zero,
+          children: [
+            "\$${catalog.price}".text.bold.red600.xl2.make(),
+            ElevatedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.black26),
+                  shape: MaterialStateProperty.all(
+                    StadiumBorder(),
+                  )),
+              child: "Buy".text.xl.make(),
+            ).wh(100, 45)
+          ],
+        ).p32(),
+      ),
       body: SafeArea(
         bottom: false,
         child: Column(
@@ -44,12 +47,22 @@ class info_page extends StatelessWidget {
               child: Container(
                 color: Colors.white,
                 width: context.screenWidth,
-                child: Column(
-                  children: [
-                    catalog.name.text.bold.xl4.make(),
-                    catalog.desc.text.textStyle(context.captionStyle).xl.make(),
-                  ],
-                ).py64(),
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      catalog.name.text.bold.xl4.make(),
+                      catalog.desc.text
+                          .textStyle(context.captionStyle)
+                          .xl
+                          .make(),
+                      Column(
+                        children: [
+                          catalog.info.text.bold.xl.make().py16(),
+                        ],
+                      ).p12(),
+                    ],
+                  ).py64(),
+                ),
               ),
             ))
           ],
